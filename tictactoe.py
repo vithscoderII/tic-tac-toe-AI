@@ -12,6 +12,10 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('TIC TAC TOE')
 screen.fill(BG_COLOR)
 
+class PrintScreenTwo:
+    def __init__(self):
+        print("I'm learning python")
+
 class Board:
     def __init__(self):
         self.board = np.zeros((BOARD_ROWS, BOARD_COLS))
